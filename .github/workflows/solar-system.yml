@@ -97,7 +97,7 @@ jobs:
         - name: Setup Kubectl
           uses: azure/setup-kubectl@v4
           with:
-            version: '1.26.0'
+            version: v1.28.1
         - name: Set Context
           uses: azure/k8s-set-context@v4
           with:
